@@ -474,7 +474,6 @@ p {
         flex-wrap: wrap;
         position: relative;
         display: flex;
-        flex-direction: column-reverse;
         &::before {
             content: "";
             position: absolute;

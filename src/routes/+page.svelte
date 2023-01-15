@@ -184,7 +184,7 @@
             commit on this project is Nov 14, 2019 so i completed it in a month.`
 		},
 		{
-			tile: 'First Job',
+			title: 'First Job',
 			date: '2019, November 20',
 			description: `With the help of friend, I landed my first job. I started working for a firm named <em><a
                 href="https://alphatech.com.np/">Alphatech</a></em>.
