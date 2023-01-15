@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import '../app.scss';
 	let services = [
 		{
@@ -239,7 +240,7 @@
 				</div>
 			</div>
 			<div class="right">
-				<img src="images/dp.jpg" alt="ashok pahadi headshot" />
+				<img src={`${base}/images.dp`} alt="ashok pahadi headshot" />
 			</div>
 		</div>
 	</section>
@@ -265,7 +266,7 @@
 					<img
 						id="upwork-achievements"
 						alt="Ashok pahadi upwork top rated programmer"
-						src="images/upwork.png"
+						src={`${base}/images/upwork.png`}
 					/>
 				</div>
 
@@ -339,7 +340,7 @@
 					<div class="item">
 						<div class="left">
 							<div class="img">
-								<img src={project.image} alt={project.title} />
+								<img src={`${base}/project.image`} alt={project.title} />
 							</div>
 						</div>
 						<div class="right">

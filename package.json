@@ -1,5 +1,5 @@
 {
-	"homepage": "https://pahadiashok.com.np",
+	"homepage": "pokhrelashok.github.io",
 	"name": "portfolio",
 	"version": "0.0.1",
 	"private": true,
@@ -7,8 +7,8 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
+		"predeploy": "vite build",
+		"deploy": "touch build/.nojekyll && gh-pages -d build -t true",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
