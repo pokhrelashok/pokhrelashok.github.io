@@ -26,8 +26,6 @@
 			author: `Max Lucado`
 		}
 	];
-	const displayQuote = quotes[Math.floor(Math.random() * quotes.length)];
-
 	let services = [
 		{
 			title: 'Frontend Development',
@@ -276,10 +274,8 @@
 	<section class="quote-section">
 		<div class="quote">
 			<div class="quote-shadow" />
-			<blockquote>
-				{displayQuote.quote}
-			</blockquote>
-			<cite>{displayQuote.author}</cite>
+			<blockquote>We judge others by their actions and ourselves by our intentions.</blockquote>
+			<cite>Found Somewhere</cite>
 		</div>
 	</section>
 
