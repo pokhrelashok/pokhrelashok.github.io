@@ -1,6 +1,33 @@
 <script>
-	import { base } from '$app/paths';
 	import '../app.scss';
+	const quotes = [
+		{
+			quote: `Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.`,
+			author: `Bernard M. Baruch`
+		},
+		{
+			quote: `Do what you can, with what you have, where you are.`,
+			author: `Theodore Roosevelt`
+		},
+		{
+			quote: `If they can get you asking the wrong questions, they don't have to worry about answers.`,
+			author: `Thomas Pynchon`
+		},
+		{
+			quote: `We judge others by their actions and ourselves by our intentions.`,
+			author: `Found Somewhere`
+		},
+		{
+			quote: `Sometimes you never realize the value of a moment until it becomes a memory.`,
+			author: `Dr. Seuss`
+		},
+		{
+			quote: `A man who wants to lead the orchestra must turn his back on the crowd.`,
+			author: `Max Lucado`
+		}
+	];
+	const displayQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
 	let services = [
 		{
 			title: 'Frontend Development',
@@ -240,7 +267,7 @@
 				</div>
 			</div>
 			<div class="right">
-				<img src={`${base}/images.dp`} alt="ashok pahadi headshot" />
+				<img src={`images/dp.jpg`} alt="ashok pahadi headshot" />
 			</div>
 		</div>
 	</section>
@@ -250,10 +277,9 @@
 		<div class="quote">
 			<div class="quote-shadow" />
 			<blockquote>
-				The man who comes back through the door in the wall will never be quite the same as the man
-				who went out.
+				{displayQuote.quote}
 			</blockquote>
-			<cite>Aldous Huxley</cite>
+			<cite>{displayQuote.author}</cite>
 		</div>
 	</section>
 
@@ -266,7 +292,7 @@
 					<img
 						id="upwork-achievements"
 						alt="Ashok pahadi upwork top rated programmer"
-						src={`${base}/images/upwork.png`}
+						src={`images/upwork.png`}
 					/>
 				</div>
 
@@ -340,7 +366,7 @@
 					<div class="item">
 						<div class="left">
 							<div class="img">
-								<img src={`${base}/project.image`} alt={project.title} />
+								<img src={`${project.image}`} alt={project.title} />
 							</div>
 						</div>
 						<div class="right">
