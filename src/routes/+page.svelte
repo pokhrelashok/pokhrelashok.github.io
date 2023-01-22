@@ -156,7 +156,7 @@
 		{
 			title: 'Landing On Planet Earth',
 			date: '1999, November 21',
-			description: `What a glorious day it was, i still remember seeing this planet for the first time <em>(PS i don't know where i lived before coming to Earth)`
+			description: `What a glorious day it was, i still remember seeing this planet for the first time.`
 		},
 		{
 			title: 'Got My First Laptop',
