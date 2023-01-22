@@ -296,10 +296,10 @@
 					<p class="subheading">Programming is like magic. You create things out of thin air.</p>
 					<h2 class="slogan">Here's a little about me</h2>
 					<p class="right-text">
-						I have been programming since i was 4. Just Kidding! As a kid i loved playing games <em
-							>(who doesn't right)</em
-						>. This one fine day, i looked up how to make games. It all started then and there. I
-						did some 2D/3D design, and then moved started playing with code. And now here i am.
+						I have been programming since i was 4. Just Kidding! As a kid i loved playing games
+						<em>(who doesn't right)</em>
+						. This one fine day, i looked up how to make games. It all started then and there. I did
+						some 2D/3D design, and then moved started playing with code. And now here i am.
 					</p>
 					<div class="buttons">
 						<a href="./cv.pdf" class="primary-btn">Download CV</a>
