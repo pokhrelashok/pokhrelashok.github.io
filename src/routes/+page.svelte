@@ -135,19 +135,14 @@
 			image: 'images/project-monopoly.png',
 			duration: 'Jan 29, 2022 - Mar 11, 2022',
 			title: 'Playsmart Monopoly',
-			subtitle: 'An educational Monopoly',
+			subtitle: 'An educational mobile game',
 			url: 'https://play.google.com/store/apps/details?id=com.reflex.playsmart',
-			tags: ['React Native', 'Redux','Expo'],
+			tags: ['React Native', 'Redux', 'Expo'],
 			description: `<span>
-					Hired by the folks at <a target="_blank" href="https://reflexitsolution.com/">Reflex IT Solution</a>, this is probably the biggest solo project
-					i have completed. Playsmart Monopoly is an educational Monopoly game that aims to sow financial knowledge in children through an engaging multiplayer
-					game. 
+					Hired by the folks at <strong><a target="_blank" href="https://reflexitsolution.com/">Reflex IT Solution</a></strong>, this is probably the biggest solo project
+					i have worked on. Playsmart Monopoly aims to cultivate financial literacy in children through an interactive multiplayer game. 
                 </span>`,
-			tasks: [
-				'UI Development',
-				'Game logic integration',
-				'Pass-Device multiplayer implementation',
-			],
+			tasks: ['UI Development', 'Game logic integration', 'Pass-Device multiplayer implementation'],
 			repo: 'https://play.google.com/store/apps/details?id=com.reflex.playsmart'
 		},
 		{
@@ -169,8 +164,7 @@
 				'Frontend application development'
 			],
 			repo: 'https://www.upwork.com/freelancers/~018a401af87ac143b9?p=1546304873584611328'
-		},
-
+		}
 	];
 	let events = [
 		{
