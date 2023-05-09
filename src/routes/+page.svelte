@@ -164,6 +164,23 @@
 				'Frontend application development'
 			],
 			repo: 'https://www.upwork.com/freelancers/~018a401af87ac143b9?p=1546304873584611328'
+		},
+		{
+			image: 'images/project-timewise.png',
+			duration: 'Sept 30, 2022 - Present',
+			title: 'Timewise',
+			subtitle: 'An Appointment & Class booking platform',
+			url: 'https://timewise.com',
+			tags: ['React', 'GraphQL', 'Redux'],
+			description: `<span>
+               Working on the Forntend of a pretty big application with a bunch of talanted developers.
+                </span>`,
+			tasks: [
+				'Landing page development',
+				'Dashboard UI redesign',
+				'A bunch of feature implementations'
+			],
+			repo: '#'
 		}
 	];
 	let events = [
