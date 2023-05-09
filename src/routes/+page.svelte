@@ -49,7 +49,7 @@
 	];
 	let projects = [
 		{
-			image: 'images/project-ludo.png',
+			image: 'images/project-ludo.webp',
 			duration: 'Oct 5, 2019 - Nov 14, 2019',
 			title: 'Multiplayer Ludo',
 			subtitle: 'A Realtime Multiplayer Game',
@@ -65,7 +65,7 @@
 			repo: 'https://github.com/pokhrelashok/pokhrelashok.github.io'
 		},
 		{
-			image: 'images/project-otzivio.png',
+			image: 'images/project-otzivio.webp',
 			duration: 'Feb 24, 2021 - Jun 25, 2021',
 			title: 'Otzivio',
 			subtitle: 'A Business Review Platform',
@@ -91,7 +91,7 @@
 			repo: 'https://www.upwork.com/freelancers/~018a401af87ac143b9?p=1404058023203397632'
 		},
 		{
-			image: 'images/project-flyerroom.png',
+			image: 'images/project-flyerroom.webp',
 			duration: 'Jul 2, 2021 - Sep 29, 2021',
 			title: 'Flyerroom',
 			subtitle: 'A  Flyer Design Platform',
@@ -113,7 +113,7 @@
 			repo: 'https://www.upwork.com/freelancers/~018a401af87ac143b9?p=1404058023203397632'
 		},
 		{
-			image: 'images/project-gec.png',
+			image: 'images/project-gec.webp',
 			duration: 'Apr 8, 2021 - Feb 3, 2022',
 			title: 'Global English Campus',
 			subtitle: 'An Interactive English School',
@@ -132,7 +132,7 @@
 			repo: 'https://www.upwork.com/freelancers/~018a401af87ac143b9?p=1404069909685145600'
 		},
 		{
-			image: 'images/project-monopoly.png',
+			image: 'images/project-monopoly.webp',
 			duration: 'Jan 29, 2022 - Mar 11, 2022',
 			title: 'Playsmart Monopoly',
 			subtitle: 'An educational mobile game',
@@ -146,7 +146,7 @@
 			repo: 'https://play.google.com/store/apps/details?id=com.reflex.playsmart'
 		},
 		{
-			image: 'images/project-beercrawl.png',
+			image: 'images/project-beercrawl.webp',
 			duration: 'Mar 14, 2022 - June 22, 2022',
 			title: 'Beercrawl',
 			subtitle: 'A Beer listing & review management platform',
@@ -166,7 +166,7 @@
 			repo: 'https://www.upwork.com/freelancers/~018a401af87ac143b9?p=1546304873584611328'
 		},
 		{
-			image: 'images/project-timewise.png',
+			image: 'images/project-timewise.webp',
 			duration: 'Sept 30, 2022 - Present',
 			title: 'Timewise',
 			subtitle: 'An Appointment & Class booking platform',
@@ -319,7 +319,7 @@
 					<img
 						id="upwork-achievements"
 						alt="Ashok pahadi upwork top rated programmer"
-						src={`images/upwork.png`}
+						src={`images/upwork.webp`}
 					/>
 				</div>
 
