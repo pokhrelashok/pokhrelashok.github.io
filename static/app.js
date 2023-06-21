@@ -82,6 +82,7 @@ document.querySelector("#contact-form").addEventListener('submit', function (e) 
     document.querySelector("#contact-name").value = ""
     document.querySelector("#contact-message").value = ""
     document.querySelector("#contact-email").value = ""
+    document.querySelector("#contact-submit").disabled = false
   })
 })
 
