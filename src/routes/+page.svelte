@@ -1,31 +1,5 @@
 <script>
 	import '../app.scss';
-	const quotes = [
-		{
-			quote: `Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.`,
-			author: `Bernard M. Baruch`
-		},
-		{
-			quote: `Do what you can, with what you have, where you are.`,
-			author: `Theodore Roosevelt`
-		},
-		{
-			quote: `If they can get you asking the wrong questions, they don't have to worry about answers.`,
-			author: `Thomas Pynchon`
-		},
-		{
-			quote: `We judge others by their actions and ourselves by our intentions.`,
-			author: `Found Somewhere`
-		},
-		{
-			quote: `Sometimes you never realize the value of a moment until it becomes a memory.`,
-			author: `Dr. Seuss`
-		},
-		{
-			quote: `A man who wants to lead the orchestra must turn his back on the crowd.`,
-			author: `Max Lucado`
-		}
-	];
 	let services = [
 		{
 			title: 'Frontend Development',
@@ -98,8 +72,7 @@
 			url: 'https://flyerroom.com',
 			tags: ['Laravel', 'Vue', 'Fabric JS', 'Bootstrap', 'Stripe'],
 			description: `<span>
-                I was a little afraid to take this project because i had to work on technologies i had never worked
-                before. The idea of the project was to create
+                The idea of the project was to create
                 a website that would contain Flyer designs for Real Estate Agents. The admin would have to be able to
                 build templates on the website, and the customers
                 would select a design they like, and edit the template and create their Flyers from it.
@@ -167,7 +140,7 @@
 		},
 		{
 			image: 'images/project-timewise.webp',
-			duration: 'Sept 30, 2022 - Present',
+			duration: 'Sept 30, 2022 - Jun 15, 2023',
 			title: 'Timewise',
 			subtitle: 'An Appointment & Class booking platform',
 			url: 'https://timewise.com',
@@ -178,7 +151,7 @@
 			tasks: [
 				'Landing page development',
 				'Dashboard UI redesign',
-				'A bunch of feature implementations'
+				'A bunch of feature implementations in the customer/staff app'
 			],
 			repo: '#'
 		}

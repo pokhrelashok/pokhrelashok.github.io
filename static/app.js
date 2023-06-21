@@ -7,14 +7,14 @@ const scrollTop = document.querySelector('.scroll-top');
 
 if (scrollTop) {
   window.addEventListener('scroll', function () {
-    if (pageYOffset > (window.innerHeight * 1.2)) {   //100vh vayo total height edi window ko innerheight 1.2 tali tala scroll garda
+    if (pageYOffset > (window.innerHeight * 1.2)) {
       scrollTop.style.display = "flex";
     } else {
       scrollTop.style.display = "none";
     }
   });
   scrollTop.addEventListener('click', function () {
-    window.scrollTo(0, 0) //x axis 0 ani y axis 0 basically top vanya
+    window.scrollTo(0, 0)
   })
 }
 
@@ -65,8 +65,8 @@ const quotes = [
 
 document.querySelector("#contact-form").addEventListener('submit', function (e) {
   e.preventDefault()
-  document.querySelector("#contact-send").disabled = true
-  document.querySelector("#contact-send").innerText = "Sending"
+  document.querySelector("#contact-submit").disabled = true
+  document.querySelector("#contact-submit").innerText = "Sending"
   // eslint-disable-next-line no-undef
   emailjs.send("service_oty59ig", "template_b8dhgue", {
     from_name: document.querySelector("#contact-name").value,
@@ -76,10 +76,12 @@ document.querySelector("#contact-form").addEventListener('submit', function (e) 
   }).then(res => {
     console.log(res)
   }).finally(() => {
-    // document.querySelector("#contact-send").disabled=false
-    document.querySelector("#contact-send").innerText = "Sent"
+    // document.querySelector("#contact-submit").disabled=false
+    document.querySelector("#contact-submit").innerText = "Sent"
     alert("Your message has been delivered. I will get back to you shortly. Thank you!");
-
+    document.querySelector("#contact-name").value = ""
+    document.querySelector("#contact-message").value = ""
+    document.querySelector("#contact-email").value = ""
   })
 })
 
