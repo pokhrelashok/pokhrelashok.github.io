@@ -3,16 +3,8 @@
     "file": "_app/immutable/assets/_page-2547888e.css",
     "src": "src/routes/+page.css"
   },
-  "src/routes/+layout.js": {
-    "file": "_app/immutable/modules/pages/_layout.js-142546f1.js",
-    "src": "src/routes/+layout.js",
-    "isEntry": true,
-    "imports": [
-      "__layout-2f8d31e9.js"
-    ]
-  },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-84d8d1b1.js",
+    "file": "_app/immutable/chunks/2-7e2b0052.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -28,9 +20,6 @@
       "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte"
     ]
   },
-  "__layout-2f8d31e9.js": {
-    "file": "_app/immutable/chunks/_layout-2f8d31e9.js"
-  },
   ".svelte-kit/generated/nodes/1.js": {
     "file": "_app/immutable/chunks/1-759ed912.js",
     "src": ".svelte-kit/generated/nodes/1.js",
@@ -38,6 +27,17 @@
     "imports": [
       "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
     ]
+  },
+  "src/routes/+layout.js": {
+    "file": "_app/immutable/modules/pages/_layout.js-142546f1.js",
+    "src": "src/routes/+layout.js",
+    "isEntry": true,
+    "imports": [
+      "__layout-2f8d31e9.js"
+    ]
+  },
+  "__layout-2f8d31e9.js": {
+    "file": "_app/immutable/chunks/_layout-2f8d31e9.js"
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
     "file": "_app/immutable/components/error.svelte-a5300fb6.js",
@@ -66,7 +66,7 @@
     "file": "_app/immutable/chunks/index-a0c4dc22.js"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-133cf29c.js",
+    "file": "_app/immutable/start-0852a921.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -80,7 +80,7 @@
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-39d46e21.js",
+    "file": "_app/immutable/components/pages/_page.svelte-96e9298c.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
