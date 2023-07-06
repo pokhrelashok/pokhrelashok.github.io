@@ -157,50 +157,46 @@
 		}
 	];
 	let events = [
-		{
-			title: 'Landing On Planet Earth',
-			date: '1999, November 21',
-			description: `What a glorious day it was, i still remember seeing this planet for the first time.`
-		},
-		{
-			title: 'Got My First Laptop',
-			date: '2012',
-			description: `My parents would not let me touch the Laptop when they were around, so i had to wait for them to go out to play some San Andreas`
-		},
+		// {
+		// 	title: 'Landing On Planet Earth',
+		// 	date: '1999, November 21',
+		// 	description: `What a glorious day it was, i still remember seeing this planet for the first time.`
+		// },
+		// {
+		// 	title: 'Got My First Laptop',
+		// 	date: '2012',
+		// 	description: `My parents would not let me touch the Laptop when they were around, so i had to wait for them to go out to play some San Andreas`
+		// },
 		{
 			date: '2016',
 			title: 'Started Learning Design',
-			description: `I didnot get into programming until much later. Before that i played around with some Adobe Illustrator, Adobe Photoshop and Blender. This helped me accumulate some much frontend skills.`
+			description: `I didnot get into programming until much later. Before that I played around with photoshop, illustrator and 3d rendering in blender. This helped me accumulate some frontend skills.`
 		},
 		{
 			date: '2019',
 			title: 'Started Web Development',
-			description: `This was the year i started my Bachelor's. I joined CSIT<em>(computer science & information technology)</em> in Hetauda City College. Then i started playing around with HTML, CSS, creating clones of Facebook & Twitter. I wasn't much hooked until i learnt Javascript. The possibilities of things i could make blew my mind. I played around with JS for a few months & created a few interactive websites.`
+			description: `I started learning HTML & CSS but I wasn't much hooked until I learnt Javascript. The possibilities of things I could create while sitting on my desk blew my mind.`
 		},
 		{
 			title: 'That One Big Project',
 			date: '2019, October 1',
 			description: `This one fine day, i decided to give myself a challange. I started working on a multiplayer ludo game.
-            Until then i didnot have any experience with Backend Programming and barely understood how it worked.
-            I started working everyday on this project after my class ended.I had so much fun creating it. The last
-            commit on this project is Nov 14, 2019 so i completed it in a month.`
+            Until then I didnot have any experience with backend Programming and barely understood how it worked. This one project
+						taught me all about the client/server architecture and how the web worked.`
 		},
 		{
 			title: 'First Job',
 			date: '2019, November 20',
-			description: `With the help of friend, I landed my first job. I started working for a firm named <em><a
+			description: `With the help of a friend, I landed my first job. I started working for a firm named <em><a
                 href="https://alphatech.com.np/">Alphatech</a></em>.
-            I worked on multiple project, learned Laravel & Vue. I learned a lots of stuffs about writing clean &
+            I worked on multiple project, learned Laravel & Vue. I learned a lot about writing clean &
             maintainable code.`
 		},
 		{
 			title: 'New Chapter',
 			date: '2021, May',
-			description: `I left the company and started working as a Freelancer. It has been a scary but very rewarding experience.
-            In my first
-            project as a freelancer, i worked as a fullstack developer, solo , on a very good project. I got to learn a
-            lot of stuff working
-            solo.`
+			description: `I left the company and started working as a Freelancer. It has been a scary but very rewarding experience. I have been very fortunate
+									to have gotten to work with amazing teams on some very cool projects.`
 		}
 	];
 </script>
