@@ -35,34 +35,6 @@ navLinks.forEach(function (link) {
   });
 });
 
-const quotes = [
-  {
-    quote: `Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.`,
-    author: `Bernard M. Baruch`
-  },
-  {
-    quote: `Do what you can, with what you have, where you are.`,
-    author: `Theodore Roosevelt`
-  },
-  {
-    quote: `If they can get you asking the wrong questions, they don't have to worry about answers.`,
-    author: `Thomas Pynchon`
-  },
-  {
-    quote: `We judge others by their actions and ourselves by our intentions.`,
-    author: `Found Somewhere`
-  },
-  {
-    quote: `Sometimes you never realize the value of a moment until it becomes a memory.`,
-    author: `Dr. Seuss`
-  },
-  {
-    quote: `A man who wants to lead the orchestra must turn his back on the crowd.`,
-    author: `Max Lucado`
-  },
-]
-
-
 document.querySelector("#contact-form").addEventListener('submit', function (e) {
   e.preventDefault()
   document.querySelector("#contact-submit").disabled = true
@@ -86,8 +58,10 @@ document.querySelector("#contact-form").addEventListener('submit', function (e) 
   })
 })
 
-
-// for quote
-const radomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-document.querySelector("blockquote").innerText = radomQuote.quote
-document.querySelector("cite").innerText = radomQuote.author
+const flashElements = document.querySelectorAll('.quote-section');
+let currentReview = 0;
+setInterval(() => {
+  flashElements[currentReview].style.display = "none";
+  currentReview = (currentReview + 1) % flashElements.length
+  flashElements[currentReview].style.display = "block";
+}, 4000)
