@@ -154,7 +154,7 @@
 				'Dashboard UI redesign',
 				'A bunch of feature implementations in the customer/staff app'
 			],
-			repo: '#'
+			repo: ''
 		},
 		{
 			isPersonal: true,
@@ -162,7 +162,7 @@
 			duration: 'Nov 27, 2023 - Nov 30, 2023',
 			title: 'Share Sathi',
 			subtitle: 'A Meroshare Helper',
-			url: 'https://github.com/pokhrelashok/share-sathi',
+			url: '',
 			tags: ['Tauri', 'Next', 'Rust', 'Typescript'],
 			description: `<span>
               A simple personal project to try out some new tech. Very useful and i personally use it daily.																														
@@ -403,16 +403,18 @@
 								</ul>
 							</div>
 							<div class="buttons">
-								{#if project.repo != '#'}
+								{#if project.repo}
 									<a href={project.repo} target="_" class="primary-btn external-link"
 										><span>{project.repo.includes('git') ? 'View Code' : 'Know More'}</span>
 										<i class="fas fa-external-link-alt" />
 									</a>
 								{/if}
-								<a href={project.url} target="_" class="primary-btn outline external-link"
-									><span>Visit Website</span>
-									<i class="fas fa-external-link-alt" />
-								</a>
+								{#if project.url}
+									<a href={project.url} target="_" class="primary-btn outline external-link"
+										><span>Visit Website</span>
+										<i class="fas fa-external-link-alt" />
+									</a>
+								{/if}
 							</div>
 							{#if project.isPersonal}
 								<div class="personal">Personal Project</div>
