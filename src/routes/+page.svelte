@@ -24,6 +24,7 @@
 	let projects = [
 		{
 			image: 'images/project-ludo.webp',
+			isPersonal: true,
 			duration: 'Oct 5, 2019 - Nov 14, 2019',
 			title: 'Multiplayer Ludo',
 			subtitle: 'A Realtime Multiplayer Game',
@@ -154,19 +155,23 @@
 				'A bunch of feature implementations in the customer/staff app'
 			],
 			repo: '#'
+		},
+		{
+			isPersonal: true,
+			image: 'images/project-share-sathi.webp',
+			duration: 'Nov 27, 2023 - Nov 30, 2023',
+			title: 'Share Sathi',
+			subtitle: 'A Meroshare Helper',
+			url: 'https://github.com/pokhrelashok/share-sathi',
+			tags: ['Tauri', 'Next', 'Rust', 'Typescript'],
+			description: `<span>
+              A simple personal project to try out some new tech. Very useful and i personally use it daily.																														
+                </span>`,
+			tasks: ['Application development in tauri using rust'],
+			repo: 'https://github.com/pokhrelashok/share-sathi'
 		}
 	];
 	let events = [
-		// {
-		// 	title: 'Landing On Planet Earth',
-		// 	date: '1999, November 21',
-		// 	description: `What a glorious day it was, i still remember seeing this planet for the first time.`
-		// },
-		// {
-		// 	title: 'Got My First Laptop',
-		// 	date: '2012',
-		// 	description: `My parents would not let me touch the Laptop when they were around, so i had to wait for them to go out to play some San Andreas`
-		// },
 		{
 			date: '2016',
 			title: 'Started Learning Design',
@@ -284,13 +289,17 @@
 		<div class="container">
 			<h2 class="section-heading" data-outline="About">About</h2>
 			<div class="wrapper">
-				<div class="left">
+				<a
+					href="https://www.upwork.com/freelancers/~018a401af87ac143b9"
+					target="_blank"
+					class="left"
+				>
 					<img
 						id="upwork-achievements"
 						alt="Ashok pahadi upwork top rated programmer"
 						src={`images/upwork.webp`}
 					/>
-				</div>
+				</a>
 
 				<div class="right">
 					<p class="subheading">Programming is like magic. You create things out of thin air.</p>
@@ -394,15 +403,20 @@
 								</ul>
 							</div>
 							<div class="buttons">
-								<a href={project.repo} target="_" class="primary-btn external-link"
-									><span>{project.repo.includes('git') ? 'View Code' : 'Know More'}</span>
-									<i class="fas fa-external-link-alt" />
-								</a>
+								{#if project.repo != '#'}
+									<a href={project.repo} target="_" class="primary-btn external-link"
+										><span>{project.repo.includes('git') ? 'View Code' : 'Know More'}</span>
+										<i class="fas fa-external-link-alt" />
+									</a>
+								{/if}
 								<a href={project.url} target="_" class="primary-btn outline external-link"
 									><span>Visit Website</span>
 									<i class="fas fa-external-link-alt" />
 								</a>
 							</div>
+							{#if project.isPersonal}
+								<div class="personal">Personal Project</div>
+							{/if}
 						</div>
 					</div>
 				{/each}
