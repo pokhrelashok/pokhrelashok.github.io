@@ -10,7 +10,7 @@ $font-family_1: "Roboto Mono";
 $font-family_2: "Montserrat";
 $font-family_3: "Montserrat", sans-serif;
 $font-family_4: "Poppins", sans-serif;
-$font-family_5: "Special Elite", cursive;
+$font-family_5: 'Vibur', cursive;
 $background-color_1: $body-bg;
 $background-color_2: $primary-color;
 $background-color_3: transparent;
@@ -27,7 +27,7 @@ $background-color_13: #311580;
 $background-color_14: #221052;
 
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto+Mono:wght@300;500&family=Poppins:wght@600&display=swap";
-@import "https://fonts.googleapis.com/css?family=Special+Elite";
+@import 'https://fonts.googleapis.com/css2?family=Vibur&display=swap';
 
 /* global */
 /* section{
@@ -58,23 +58,6 @@ $background-color_14: #221052;
     }
 }
 
-/* #services .item:nth-child(1) i{
-     background-color: rgba(0,255,115,0.2);
-}
-#services .item:nth-child(2) i{
-    background-color: rgba(8,69,241,0.3);
-}
-#services .item:nth-child(3) i{
-    background-color: #cbbef093;
-} */
-/* timeline starts */
-/* timeline ends */
-/* #footer footer .col-1,
-#footer footer .col-2,
-#footer footer .col-3{
-  flex: 1;
-} */
-/* quote section */
 ul {
     li {
         list-style: none;
@@ -1027,24 +1010,45 @@ p {
     display: flex;
     justify-content: center;
     overflow-x: hidden;
+    opacity: 0;
+    animation: fadeIn ease-out 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    display: none;
+
+    &:nth-of-type(1) {
+        display: block;
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .quote {
-    background: $secondary-black;
+    background: #182C61;
     color: $color_6;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     max-width: 1000px;
-    height: 200px;
+    height: 120px;
     position: relative;
     overflow: -moz-hidden-unscrollable;
     border-radius: 8px;
+    width: 100%;
 }
 
 .quote-shadow {
-    height: 200px;
+    height: 120px;
     z-index: -100;
     width: 100%;
     left: 40px;
@@ -1057,12 +1061,12 @@ p {
 blockquote {
     font-family: $font-family_5;
     font-weight: 100;
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     line-height: 1.4;
     position: relative;
     margin: 0;
-    padding: 0.5rem;
-    width: 80%;
+    width: 82%;
+    text-align: left;
 
     &:before {
         position: absolute;
@@ -1071,8 +1075,8 @@ blockquote {
         width: 4rem;
         height: 4rem;
         content: "“";
-        left: -5rem;
-        top: -2rem;
+        left: -4rem;
+        top: -7rem;
     }
 
     &:after {
@@ -1254,6 +1258,36 @@ cite {
     }
 }
 
+@media screen and (max-width: 1065px) {
+    #services {
+        .section-heading {
+            margin-top: 6rem;
+        }
+
+        .all-items {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .item {
+            margin: 2rem 0;
+            align-self: stretch;
+
+            &:nth-child(1) {
+                background-color: $background-color_9;
+            }
+
+            &:nth-child(2) {
+                background-color: $background-color_7;
+            }
+
+            &:nth-child(3) {
+                background-color: $background-color_8;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 760px) {
     html {
         font-size: 9px;
@@ -1290,32 +1324,7 @@ cite {
         }
     }
 
-    #services {
-        .section-heading {
-            margin-top: 6rem;
-        }
 
-        .all-items {
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .item {
-            margin: 2rem 0;
-
-            &:nth-child(1) {
-                background-color: $background-color_9;
-            }
-
-            &:nth-child(2) {
-                background-color: $background-color_7;
-            }
-
-            &:nth-child(3) {
-                background-color: $background-color_8;
-            }
-        }
-    }
 
     .quote-shadow {
         display: none;
@@ -1325,20 +1334,8 @@ cite {
 
     .quote-section {
         padding: 3rem 1rem;
-        display: flex;
+        // display: flex;
         justify-content: center;
-    }
-
-    blockquote {
-        width: 85%;
-
-        &:before {
-            content: "" !important;
-        }
-
-        &:after {
-            content: "" !important;
-        }
     }
 }
 

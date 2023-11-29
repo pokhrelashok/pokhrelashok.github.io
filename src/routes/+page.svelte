@@ -204,6 +204,21 @@
 									to have gotten to work with amazing teams on some very cool projects.`
 		}
 	];
+	const reviews = [
+		'Great work ethic and excellent skill set',
+		'Looking forward to working together again',
+		"Can't over-state the value that Ashok brought",
+		'Amazing technical skills and quality as a person',
+		'Always on time for meetings and available at short notice',
+		'Knowledge of Laravel was very helpful',
+		'Suggestions for architecture and web page design were very helpful',
+		'Proactively gave advice for improvements',
+		'Another excellent project completed by Ashok',
+		'Commitment to the job is outstanding',
+		'Successfully analyzed and produced an identical front-end',
+		'Impressive developer',
+		'Thanks for the nice work done'
+	];
 </script>
 
 <div>
@@ -276,13 +291,19 @@
 	</section>
 	<!-- HERO SECTION ENDS -->
 
-	<section class="quote-section">
-		<div class="quote">
-			<div class="quote-shadow" />
-			<blockquote>We judge others by their actions and ourselves by our intentions.</blockquote>
-			<cite>Found Somewhere</cite>
-		</div>
-	</section>
+	{#each reviews as review, i}
+		<a
+			href="https://www.upwork.com/freelancers/~018a401af87ac143b9"
+			rel="noreferrer"
+			target="_blank"
+			class="quote-section container"
+		>
+			<div class="quote">
+				<div class="quote-shadow" />
+				<blockquote>{review}</blockquote>
+			</div>
+		</a>
+	{/each}
 
 	<!-- ABOUT SECTION STARTS -->
 	<section id="about">
@@ -290,6 +311,7 @@
 			<h2 class="section-heading" data-outline="About">About</h2>
 			<div class="wrapper">
 				<a
+					rel="noreferrer"
 					href="https://www.upwork.com/freelancers/~018a401af87ac143b9"
 					target="_blank"
 					class="left"
@@ -445,7 +467,7 @@
 								</a>
 							</li>
 							<li>
-								<a>
+								<a href="#">
 									<span class="icon">
 										<i class="fas fa-map-marker-alt" />
 									</span>
