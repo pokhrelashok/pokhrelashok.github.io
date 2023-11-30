@@ -165,7 +165,7 @@
 			url: '',
 			tags: ['Tauri', 'Next', 'Rust', 'Typescript'],
 			description: `<span>
-              A simple personal project to try out some new tech. Very useful and i personally use it daily.																														
+              A meroshare helper app built using tauri. Just a fun project to learn some new tech. Useful & rewarding																														
                 </span>`,
 			tasks: ['Application development in tauri using rust'],
 			repo: 'https://github.com/pokhrelashok/share-sathi'
