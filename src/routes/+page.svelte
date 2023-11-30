@@ -466,14 +466,6 @@
 									<span class="email">pokhrelashok2@gmail.com</span>
 								</a>
 							</li>
-							<li>
-								<a href="#">
-									<span class="icon">
-										<i class="fas fa-map-marker-alt" />
-									</span>
-									<span class="text">Hetauda, Nepal</span>
-								</a>
-							</li>
 						</ul>
 					</div>
 					<div class="social-info">
