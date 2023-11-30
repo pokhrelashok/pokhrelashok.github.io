@@ -297,6 +297,7 @@
 			rel="noreferrer"
 			target="_blank"
 			class="quote-section container"
+			title="Client's Reviews"
 		>
 			<div class="quote">
 				<div class="quote-shadow" />
@@ -343,7 +344,6 @@
 	<!-- ABOUT SECTION ENDS -->
 
 	<!-- SERVICES SECTION STARTS -->
-
 	<section id="services">
 		<div class="container">
 			<h2 class="section-heading" data-outline="Services">Services</h2>
