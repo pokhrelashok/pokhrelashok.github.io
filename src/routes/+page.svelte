@@ -494,7 +494,7 @@
 					<div class="form-wrapper">
 						<form id="contact-form">
 							<div class="form-group">
-								<label for="name">Your Name</label>
+								<label for="contact-name">Your Name</label>
 								<div class="input-wrapper">
 									<span class="icon">
 										<i class="fas fa-user" />
@@ -504,7 +504,7 @@
 							</div>
 
 							<div class="form-group">
-								<label for="email">Your Email</label>
+								<label for="contact-email">Your Email</label>
 								<div class="input-wrapper">
 									<span class="icon">
 										<i class="fas fa-envelope" />
@@ -513,7 +513,7 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="message">Message</label>
+								<label for="contact-message">Message</label>
 								<textarea name="contact-message" id="contact-message" required />
 							</div>
 							<div class="button-container">
@@ -548,17 +548,19 @@
 						<li>
 							<a href="mailto:pokhrelashok2@gmail.com">pokhrelashok2@gmail.com</a>
 						</li>
-						<li><a>Hetauda, Nepal</a></li>
+						<li>Hetauda, Nepal</li>
 					</ul>
 				</div>
 				<div class="col-3">
 					<h2 class="column-heading">Social <br />Links</h2>
 					<ul>
 						<li>
-							<a target="_" href="https://github.com/pokhrelashok"><i class="fab fa-github" /></a>
+							<a target="_blank" rel="noreferrer" href="https://github.com/pokhrelashok"
+								><i class="fab fa-github" /></a
+							>
 						</li>
 						<li>
-							<a target="_" href="https://www.facebook.com/Pokhrelashok2"
+							<a target="_blank" rel="noreferrer" href="https://www.facebook.com/Pokhrelashok2"
 								><i class="fab fa-facebook" /></a
 							>
 						</li>
