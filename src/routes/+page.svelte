@@ -540,12 +540,11 @@
 						<li>
 							<a href="mailto:pokhrelashok2@gmail.com">pokhrelashok2@gmail.com</a>
 						</li>
-						<li>Hetauda, Nepal</li>
 					</ul>
 				</div>
 				<div class="col-3">
 					<h2 class="column-heading">Social <br />Links</h2>
-					<ul>
+					<ul class="icons">
 						<li>
 							<a target="_blank" rel="noreferrer" href="https://github.com/pokhrelashok"
 								><i class="fab fa-github" /></a
