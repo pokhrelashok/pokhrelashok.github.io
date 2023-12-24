@@ -169,6 +169,26 @@
                 </span>`,
 			tasks: ['Application development in tauri using rust'],
 			repo: 'https://github.com/pokhrelashok/share-sathi'
+		},
+		{
+			isPersonal: false,
+			image: 'images/project-lighting-illusions.webp',
+			duration: 'June 27, 2023 - Current',
+			title: 'Lighting Illusions',
+			subtitle: 'An E-commerce website',
+			url: 'https://lightingillusions.com.au/',
+			tags: ['NextJS', 'Laravel'],
+			description: `<span>
+              Hired as a contractor for <strong><a target="_blank" href="https://digital8.com.au/">Digital8</a></strong>, I worked as a fullstack developer for an e-commerce website. I built the frontend from ground-up using Next (was using react previously),
+							and am working on project cleanup, refactoring and optization. 																	
+                </span>`,
+			tasks: [
+				'Frontend Development using NextJS',
+				'Payment integration using Braintree',
+				'Omnisend integration and optimization',
+				'Database & API refactoring & optimization'
+			],
+			repo: ''
 		}
 	];
 	let events = [
