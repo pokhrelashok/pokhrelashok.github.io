@@ -106,6 +106,19 @@
 			repo: 'https://www.upwork.com/freelancers/~018a401af87ac143b9?p=1404069909685145600'
 		},
 		{
+			image: 'images/project-learndev.webp',
+			duration: 'Dec 27, 2021 - May 10, 2022',
+			title: 'Learndev',
+			subtitle: 'An Interactive Programming School',
+			url: 'https://www.learndev.com/',
+			tags: [],
+			description: `<span>
+               I worked as a content-writer to work on various beginner level courses and quizzes for HTML, CSS & JS.
+                </span>`,
+			tasks: ['Research and Creation on beginner courses on Web Development'],
+			repo: ''
+		},
+		{
 			image: 'images/project-monopoly.webp',
 			duration: 'Jan 29, 2022 - Mar 11, 2022',
 			title: 'Playsmart Monopoly',
