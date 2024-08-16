@@ -202,6 +202,22 @@
 				'Database & API refactoring & optimization'
 			],
 			repo: ''
+		},
+		{
+			isPersonal: false,
+			image: 'images/gll.webp',
+			duration: 'May 30, 2024 - July 1, 2024',
+			title: 'Grace Loves Lace',
+			subtitle: 'An integrated booking modal',
+			url: 'https://graceloveslace.com/',
+			tags: ['React', 'Express'],
+			description: `<span>
+              The client had some issues with the booxi's booking widget, so I was instructed to develop a widget that used booxi's api, but
+							had a wrapper around its backend, to nullify some issues booxi has. I solo-developed the widget in a few months using React, and a 
+							small server using Express. 																	
+                </span>`,
+			tasks: ['Frontend Development using React', 'Booxi booking api integration'],
+			repo: ''
 		}
 	];
 	let events = [
