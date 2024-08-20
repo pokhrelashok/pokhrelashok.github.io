@@ -186,7 +186,7 @@
 		{
 			isPersonal: false,
 			image: 'images/project-lighting-illusions.webp',
-			duration: 'June 27, 2023 - Current',
+			duration: 'June 27, 2023 - July 1, 2024',
 			title: 'Lighting Illusions',
 			subtitle: 'An E-commerce website',
 			url: 'https://lightingillusions.com.au/',
@@ -212,7 +212,7 @@
 			url: 'https://graceloveslace.com/',
 			tags: ['React', 'Express'],
 			description: `<span>
-              The client had some issues with the booxi's booking widget, so I was instructed to develop a widget that used booxi's api, but
+              The client had some issues with the booxi booking widget, so I was instructed to develop a widget that used booxi's api, but
 							had a wrapper around its backend, to nullify some issues booxi has. I solo-developed the widget in a few months using React, and a 
 							small server using Express. 																	
                 </span>`,
