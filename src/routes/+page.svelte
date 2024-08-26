@@ -334,7 +334,7 @@
 				</div>
 			</div>
 			<div class="right">
-				<img src={`images/dp.jpg`} alt="ashok pahadi headshot" />
+				<img src={`images/dp.webp`} alt="ashok pahadi headshot" />
 			</div>
 		</div>
 	</section>
