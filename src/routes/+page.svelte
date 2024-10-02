@@ -515,12 +515,13 @@
 									<span class="email">pokhrelashok2@gmail.com</span>
 								</a>
 							</li>
-						</ul>
-					</div>
-					<div class="social-info">
-						<ul>
 							<li>
-								<a target="_" href="https://github.com/pokhrelashok"><i class="fab fa-github" /></a>
+								<a href="https://github.com/pokhrelashok">
+									<span class="icon">
+										<i class="fas fa-github" />
+									</span>
+									<span class="email">https://github.com/pokhrelashok</span>
+								</a>
 							</li>
 						</ul>
 					</div>
