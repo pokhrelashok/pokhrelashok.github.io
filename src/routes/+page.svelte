@@ -520,11 +520,8 @@
 					<div class="social-info">
 						<ul>
 							<li>
-								<a target="_" href="https://github.com/pokhrelashok"><i class="fab fa-github" /></a>
-							</li>
-							<li>
-								<a target="_" href="https://www.facebook.com/Pokhrelashok2"
-									><i class="fab fa-linkedln" /></a
+								<a target="_" href="https://github.com/pokhrelashok"
+									><i class="fab fa-github" />https://github.com/pokhrelashok</a
 								>
 							</li>
 						</ul>
@@ -600,8 +597,11 @@
 							>
 						</li>
 						<li>
-							<a target="_blank" rel="noreferrer" href="https://www.facebook.com/Pokhrelashok2"
-								><i class="fab fa-facebook" /></a
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://www.linkedin.com/in/ashok-pahadi-00493523b/"
+								><i class="fab fa-linkedin" /></a
 							>
 						</li>
 					</ul>
