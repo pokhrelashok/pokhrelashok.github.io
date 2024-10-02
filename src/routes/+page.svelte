@@ -518,7 +518,7 @@
 							<li>
 								<a href="https://github.com/pokhrelashok">
 									<span class="icon">
-										<i class="fas fa-github" />
+										<i class="fab fa-github" />
 									</span>
 									<span class="email">https://github.com/pokhrelashok</span>
 								</a>
