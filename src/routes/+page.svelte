@@ -524,7 +524,7 @@
 							</li>
 							<li>
 								<a target="_" href="https://www.facebook.com/Pokhrelashok2"
-									><i class="fab fa-facebook" /></a
+									><i class="fab fa-github" /></a
 								>
 							</li>
 						</ul>
