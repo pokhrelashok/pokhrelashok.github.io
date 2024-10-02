@@ -520,9 +520,7 @@
 					<div class="social-info">
 						<ul>
 							<li>
-								<a target="_" href="https://github.com/pokhrelashok"
-									><i class="fab fa-github" />https://github.com/pokhrelashok</a
-								>
+								<a target="_" href="https://github.com/pokhrelashok"><i class="fab fa-github" /></a>
 							</li>
 						</ul>
 					</div>
