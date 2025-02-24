@@ -28,7 +28,7 @@
 			duration: 'Oct 5, 2019 - Nov 14, 2019',
 			title: 'Multiplayer Ludo',
 			subtitle: 'A Realtime Multiplayer Game',
-			url: 'https://ludo-nodejs.herokuapp.com/',
+			url: '',
 			tags: ['Express JS', 'Socket', 'HTML, CSS & JS'],
 			description:
 				'<span>This is the project that set things in motion for me. This was the project that taught me about client/server architecture and introduced me to real-time socket programming. You can view the source code below.</span>',
@@ -37,7 +37,7 @@
 				'Using socket for real time gameplay and messaging',
 				'Managing players and game rooms'
 			],
-			repo: 'https://github.com/pokhrelashok/pokhrelashok.github.io'
+			repo: 'https://github.com/pokhrelashok/js-ludo'
 		},
 		{
 			image: 'images/project-otzivio.webp',
@@ -228,7 +228,7 @@
 			url: '',
 			tags: ['Rust'],
 			description: `<span>
-              Wrote a shell inspired from zsh with history & auto-completions. 
+              Wrote a shell inspired by zsh with command history & auto-completions. 
                 </span>`,
 			tasks: ['Writing the shell'],
 			repo: 'https://github.com/pokhrelashok/a-shell'
