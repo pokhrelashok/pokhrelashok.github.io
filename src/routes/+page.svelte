@@ -218,6 +218,38 @@
                 </span>`,
 			tasks: ['Frontend Development using React', 'Booxi booking api integration'],
 			repo: ''
+		},
+		{
+			isPersonal: true,
+			image: 'images/a-shell.webp',
+			duration: 'Dec 28, 2024 - Jan 22, 2025',
+			title: 'A-Shell',
+			subtitle: 'A custom shell written in rust',
+			url: '',
+			tags: ['Rust'],
+			description: `<span>
+              Wrote a shell inspired from zsh with history & auto-completions. 
+                </span>`,
+			tasks: ['Writing the shell'],
+			repo: 'https://github.com/pokhrelashok/a-shell'
+		},
+		{
+			isPersonal: true,
+			image: 'images/rautey.webp',
+			duration: 'Feb 18, 2025 - Feb 28, 2025',
+			title: 'Rautey',
+			subtitle: 'A simple backend framework for rust',
+			url: '',
+			tags: ['Rust'],
+			description: `<span>
+Wrote a simple backend framework with routing, middlewares, storage & session support.
+                </span>`,
+			tasks: [
+				'Created a simple parser for HTTP request',
+				'Created a simple parser for FormData',
+				'Implemented routing, cookies and session support'
+			],
+			repo: 'https://github.com/pokhrelashok/rautey'
 		}
 	];
 	let events = [
