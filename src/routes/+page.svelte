@@ -250,6 +250,24 @@ Wrote a simple backend framework with routing, middlewares, storage & session su
 				'Implemented routing, cookies and session support'
 			],
 			repo: 'https://github.com/pokhrelashok/rautey'
+		},
+		{
+			isPersonal: true,
+			image: 'images/project-npt.webp',
+			duration: 'Dec 20, 2025 - ',
+			title: 'Nepse Portfolio Tracker',
+			subtitle: 'A modern, bs free portfolio tracker for NEPSE',
+			url: 'https://nepseportfoliotracker.app',
+			tags: ['Android', 'NodeJS'],
+			description: `<span>
+Started as a solution for my own needs of not finding good solutions for NEPSE portfolio tracking
+                </span>`,
+			tasks: [
+				'Android application written in Kotlin',
+				'A simple backend server with redis and mysql in NodeJS',
+				'Hosted in a cheap vps in Digitalocean'
+			],
+			repo: ''
 		}
 	];
 	let events = [
